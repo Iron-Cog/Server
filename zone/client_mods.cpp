@@ -595,7 +595,7 @@ int32 Client::CalcMaxMana()
 			current_mana = curMana_cap;
 		}
 	}
-	LogSpells("Client::CalcMaxMana() called for [{}] - returning [{}]", GetName(), max_mana);
+	//LogSpells("Client::CalcMaxMana() called for [{}] - returning [{}]", GetName(), max_mana);
 	return max_mana;
 }
 
